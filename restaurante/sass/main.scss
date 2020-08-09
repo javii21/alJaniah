@@ -1,0 +1,24 @@
+
+
+
+//Base.
+@import'./base/estilos-generales.scss'; //Estilos generales.
+
+
+
+//Complementos.
+@import'./complementos/header.scss';        //Menu y Titulo.
+@import'./complementos/acerca-de.scss';     //Imagen y el Acerca de.
+@import'./complementos/menu.scss';          //Menu de alimentecion. 
+@import'./complementos/galeria.scss';       //Galeria.
+@import'./complementos/ubicacion.scss';     //Ubicacion y Horarios.
+@import'./complementos/mapa.scss';          // Mapa.
+@import'./complementos/footer.scss';        //Pie de Pagina.
+
+//Medidas
+@import'./medidas/mediaQueriesHeader.scss';  //Medias Query Header 800px.
+@import'./medidas/mediaQueriesAcerca-de.scss'; //Media Query Acerca-de 800px y 400px.
+@import'./medidas/mediaQueriesMenu.scss'; //Media Query Menu 800px y 400px.
+@import'./medidas/mediaQueriesGaleria.scss';// Media Query galeria 800px.
+@import'./medidas/mediaQueriesMapa.scss'; //Media Query Mapa 800px.
+@import'./medidas/mediaQueriesUbicacion.scss';//Media Query Ubicacion 400px. 

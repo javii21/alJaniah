@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px){
+    
+    .menu{
+
+        padding-top: 300px;
+
+        .contenedor-menu{
+
+            .contenedor-menu2{
+
+                .articulo{
+
+                    width:100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .menu{
+
+        .contenedor-menu{
+
+            .contenedor-menu2{
+
+                .articulo{
+
+                    .nombre,
+                    .precio{
+                        font-size: 16px;
+                        line-height:16px;
+                    }
+               }
+            }
+        }
+    }
+}

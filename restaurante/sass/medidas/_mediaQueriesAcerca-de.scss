@@ -1,0 +1,36 @@
+@media screen and(max-width: 800px){
+
+    .acerca-de{
+
+        .contenedor{
+
+            .foto{
+                width: 100%;
+                position: relative;
+            }
+
+            .articulo{
+                position: relative;
+                width:100%;
+                top:-50px;
+                transform: translate(0px, 0);
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+    .acerca-de{
+
+        .articulo{
+
+            .titulo{
+                font-size: 34px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
