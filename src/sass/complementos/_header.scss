@@ -1,0 +1,71 @@
+.header{
+    width:100%;
+    background: url(../img/bg.jpg) #281a0c;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+
+    .contenedor{
+        width:95%;
+        position: relative;
+        height: 700px;
+
+        .menu-navegacion{
+            width:100%;
+            ul{
+                width:100%;
+                list-style: none;
+                text-align: right ;
+
+                li{
+                    display: inline-block;
+                    margin:40px  20px;
+                    position: relative;
+
+                    a{
+                        color:#FFFFFF;
+                        font-size: 20px;
+                        font-family: 'Open Sans', Arial, sans-serif;
+                        font-weight: 300;
+                        text-decoration: none;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .textos{
+
+            width: 100%;
+            color:#ffff;
+            position: absolute;
+            top:50%;
+            margin-top:-52px;
+
+            .nombre{
+                font-size: 50px;
+                font-weight: 600;
+                margin-bottom:6px;
+
+                span{
+                    font-weight: 300;
+                }
+            } 
+
+            .slogan{
+                font-weight:300;
+                font-size: 20px;
+                font-style: italic;
+
+
+            }
+        }
+
+    }
+
+}
